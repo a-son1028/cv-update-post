@@ -3,7 +3,6 @@ const googleScholarService = require("./services/google-scholar");
 // models
 const userModel = require("./models/user");
 
-main();
 async function main() {
   try {
     const userRes = await googleScholarService.getAuthor("2Ysvz_QAAAAJ");
@@ -93,4 +92,5 @@ async function main() {
     console.error("ERROR: update user failed", err);
   }
 }
-//
+
+module.exports = main;
