@@ -81,7 +81,7 @@ async function main() {
       },
     };
 
-    const userUpdated = await userModel.create(newUser);
+    const userUpdated = await userModel.update(newUser);
     console.log(
       "Updated user successfully",
       JSON.stringify(userUpdated, null, 2)
