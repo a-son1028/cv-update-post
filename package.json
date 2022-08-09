@@ -12,6 +12,7 @@
   "dependencies": {
     "axios": "^0.27.2",
     "dynamoose": "^2.8.6",
+    "lambda-warmer": "^1.2.2",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
