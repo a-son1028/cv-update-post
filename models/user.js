@@ -137,7 +137,6 @@ const userSchema = new Schema(
                 },
                 since2017: {
                   type: Number,
-                  required: true,
                 },
               },
             },
